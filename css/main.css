@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +23,9 @@ header{
 }
 .header-row2{
     display: flex;
-    width:100%
+    width:100%;
+    align-items: center;
+    
 }
 .header-row2-col1{
     width: 50%;
@@ -32,4 +36,30 @@ header{
 .categories-row-col{
     display: inline-block;
     margin-left: 50px;
+}
+.header-row2-col1-h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.header-row2-col1-h1{
+    font-size: 42px;
+    line-height: 60px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 4px;
+    margin-bottom: 30px;
+}
+.header-row2-col1-para{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #fffc;
+    margin-bottom: 48px;
 }
