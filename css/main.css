@@ -63,3 +63,34 @@ header{
     color: #fffc;
     margin-bottom: 48px;
 }
+.nav-button{
+    background-color: #ffb700;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    padding: 14px 30px;
+    border: 1px solid #ffb700;
+}
+.nav-button:hover{
+    background-color: transparent;
+    color: #ffb700;
+}
+.header-row1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-row1-col1{
+    width: 20%;
+}
+.header-row1-col2{
+    width: 60%;
+}
+.header-row1-col3{
+    width: 20%;
+}
+.logo{
+    width: 80%;
+}
