@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow-x: hidden;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+.font-white{
+    color: white;
+}
+.font-yellow{
+    color: #ffb700;
+}
+.font-grey{
+    color: #b0b5b9;
+}
+.font-dark-grey{
+    color: #8a9197;
+}
+.yellow-btn{
+    background-color: #ffb700;
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    padding: 14px 30px;
+    border: 1px solid #ffb700;
+}
+.yellow-btn:hover{
+    background-color: transparent;
+    color: #ffb700;
+}
+header{
+    background-image: url('../images/about_bg.png');
+}
+.header-row1{
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.header-row1-col1{
+    width: 20%;
+ 
+}
+.header-row1-col2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-row1-col3{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-row1-col1 img{
+    width: 100%;
+    max-width: 160px;
+}
+.header-row1-col2 ul{
+    width: 70%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-row2{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.header-row2 a{
+    text-decoration: none;
+}
+.header-row2 p{
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/* Contact us Section */
+
+.contact-us{
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.contact-row{
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-row-col1{
+    width: 48%;
+    position: relative;
+}
+.contact-row-col2{
+    width: 48%;
+}
+.contact-row-col2 h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.contact-row-col2 h2{
+    max-width: 900px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.contact-row-col2 p{
+    margin-top: 22px;
+    margin-bottom: 21px;
+    font-size: 16px;
+    line-height: 28px;
+}
