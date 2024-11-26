@@ -7,6 +7,10 @@
 body{
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 header{
     background-image: url('../images/hero.png');
@@ -123,17 +127,42 @@ header{
 }
 .popular-items-grid{
     display: grid;
-    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-columns: 20% 20% 20% 20%;
     justify-content: space-evenly;
+    grid-row-gap:30px;
 }
 .popular-grid-image-box{
     border: 1px solid #e6e7e8;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 .popular-grid-image{
     width: 90%;
     background-color: #f7f7f7;
+    padding: 55px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popular-grid-image:hover{
+    background-color: #fff8e6;
 }
 .popular-grid-image img{
-    width: 65%;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+.popular-grid-content{
+    padding-top: 15px;
+}
+.star-rating{
+    margin-top: 8px;
+    margin-bottom: 12px;
+    color: #ffb700;
+}
+.popular-grid-content p{
+    font-weight: 600;
 }
