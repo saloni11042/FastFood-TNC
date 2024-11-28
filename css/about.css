@@ -120,6 +120,14 @@ header{
 .contact-row-col1{
     width: 48%;
     position: relative;
+    background-image: url('../images/about_Rectangle\ 52.png');
+    display: flex;
+}
+.contact-row-col1-image{
+    width: 50%;
+}
+.contact-row-col1-image img{
+    width: 100%;
 }
 .contact-row-col2{
     width: 48%;
